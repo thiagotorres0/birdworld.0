@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    </head>
+        <body>        
+            <!--Aca comienza el header-->
+            <header>
+                <a href="index.html">
+                    <img src="../images/Canario.png" alt="Canario" class="imgCanario">
+                </a>
+                <nav>
+                <h3 class="titulito">Tu mundo en la canaricultura</h3>
+                    <ul>
+                        <a href="iniciarsecion.html">
+                            <li class="li">Iniciar Sesion</li>
+                        </a>
+                        <a href="registrate.html">
+                            <li class="li">Registrate</li>
+                        </a>
+                        <a href="contacto.html">
+                            <li class="li">Contactanos</li>
+                        </a>
+                        <a href="ayuda.html"
+                            <li class="li">Ayuda</li>
+                        </a>
+                        <a href="carrito.html">
+                            <li class="li">Carrito</li>
+                        </a>
+                    </ul>
+                </nav>
+            </header>
+            <!--Aca termina el header-->
+
+            <!--Aca empieza el formulario-->
+            <form id="formulario">
+                <Fieldset>
+                    <legend>Formulario de contacto</legend>
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" name="nombre" required><br>
+                    <label for="telefono">Telefono</label><br>
+                    <input type="number" name="telefono" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" required><br>
+                    <label for="">Cuando quieres ser contactado?</label><br>
+                    <input type="checkbox" value="m" name="maniana"> Mañana <br>
+                    <input type="checkbox" value="t" name="tarde"> Tarde <br>
+                    <label for="">Sexo</label><br>
+                    <input type="radio" name="sexo" value="m"> Masculino  
+                    <input type="radio" name="sexo" value="f"> Femenino   
+                    <input type="radio" name="sexo" value="o"> Otro <br>
+                    <label for="socio">Socio</label><br>
+                    <select name="socio">
+                        <option value="s">Si</option>
+                        <option value="n" selected>No</option>
+                    </select> <br>
+                    <textarea name="mensaje" placeholder="Deje su consulta aqui"></textarea> <br>
+                    <input type="submit" value="Enviar"> 
+                    <input type="reset" value="Limpiar">
+                </Fieldset>
+            <!--Aca termina el formulario-->        
+            <!--Aca empieza el footer-->
+            <footer>
+                <div>
+                    <div>
+                        <a href="indexbirdworld.html">
+                            <img src="../images/Canario.png" alt="Canario" class="imgFooter">
+                        </a>
+                    </div>
+                    <div>
+                        <h4>Contactanos</h4>
+                        <p>birdworld@gmail.com</p>
+                    </div>
+                    <div>
+                        <a href="../pages/ayuda.html">
+                            <p>Ayuda</p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>Desarrollador web: <b>Thiago Torres</b></p>
+                    </div>
+                </div>
+            </footer>
+            <!--Aca termina el footer-->
+        </body>
+</html>
